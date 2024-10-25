@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+nav {
+  background-color: #4641457c;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(245, 244, 244);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.5s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+  background-image: url('./assets/fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #fcfbfb;
+  font-size: 2rem;
+}
+
+p {
+  color: #fcfbfb;
+  font-size: 1rem;
+}
+

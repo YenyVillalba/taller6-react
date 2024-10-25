@@ -1,0 +1,48 @@
+body {
+    margin: 0; 
+    transition: background-color 0.3s ease; 
+  }
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .light {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  .dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+
+  body.light {
+    background-color: #fdfdfd; 
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #424242a8;
+  }
+  
